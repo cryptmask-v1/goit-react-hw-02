@@ -35,7 +35,15 @@ const SipCafe = () => {
   const positiveRating =
     totalFeedback === 0 ? 0 : Math.round((rating.good / totalFeedback) * 100);
   return (
-    <div>
+    <div
+      style={{
+        width: "650px",
+        padding: "10px 10px 10px 10px",
+        border: "1px solid white",
+        borderRadius: "20px",
+        backgroundColor: "#6e4218c4",
+      }}
+    >
       <h1>Sip Happens Café</h1>
       <p>
         Please leave your feedback about our service by selecting one of the
