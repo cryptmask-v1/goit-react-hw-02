@@ -37,7 +37,6 @@ const SipCafe = () => {
   return (
     <div
       style={{
-        width: "650px",
         padding: "10px 10px 10px 10px",
         border: "1px solid white",
         borderRadius: "20px",
